@@ -38,23 +38,3 @@ You can install the required libraries using:
 
 ```bash
 pip install scikit-learn pandas matplotlib joblib
-
-Running the Notebook
-Open the Jupyter notebook Decision_tree_classifier_for_Iris_dataset.ipynb in Jupyter or Google Colab, and run the cells sequentially.
-
-Files
-Decision_tree_classifier_for_Iris_dataset.ipynb: Jupyter notebook with full implementation.
-
-decision_tree_iris.joblib: Saved trained model file.
-
-decision_tree_iris.png: Visualization of the trained decision tree.
-
-Results
-The model achieves high accuracy on the Iris dataset and the visualization clearly shows the decision rules based on feature thresholds.
-
-Future Work
-Hyperparameter tuning (e.g., max_depth, min_samples_split)
-
-Cross-validation and GridSearchCV for better model selection
-
-Experiment with ensemble methods like Random Forests
